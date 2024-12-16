@@ -800,7 +800,7 @@
     Private Sub PictureBox21_DoubleClick(sender As Object, e As EventArgs) Handles PictureBox21.DoubleClick
         Timer1.Stop()
         Timer2.Stop()
-        MsgBox("秘密功能啟動!!??")
+        MsgBox("秘密功能啟動!!!??")
         If Label1.Enabled = True Then
             Timer1.Start()
             Timer2.Start()
